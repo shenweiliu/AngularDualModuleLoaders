@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "MVC";
+}
+
+@if (ViewBag.EnvironmentName == "Development")
+{
+    <app-root>Loading (debug)...</app-root>
+}
+else
+{    
+    <app-root>Loading...</app-root>
+}

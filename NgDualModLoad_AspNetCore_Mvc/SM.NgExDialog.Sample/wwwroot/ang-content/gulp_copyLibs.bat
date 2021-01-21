@@ -1,0 +1,2 @@
+gulp copyLibs
+readkey
