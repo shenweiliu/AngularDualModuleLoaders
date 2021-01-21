@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <TypeScriptToolsVersion>4.0</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\ang-debug\npm-libs\**" />
+    <Compile Remove="wwwroot\ang-dist\app\**" />
+    <Content Remove="wwwroot\ang-debug\npm-libs\**" />
+    <Content Remove="wwwroot\ang-dist\app\**" />
+    <EmbeddedResource Remove="wwwroot\ang-debug\npm-libs\**" />
+    <EmbeddedResource Remove="wwwroot\ang-dist\app\**" />
+    <None Remove="wwwroot\ang-debug\npm-libs\**" />
+    <None Remove="wwwroot\ang-dist\app\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\ang-content\angular-build-for-PROD.bat" />
+    <Content Remove="wwwroot\ang-content\angular-build.bat" />
+    <Content Remove="wwwroot\ang-content\angular-build.local.bat" />
+    <Content Remove="wwwroot\ang-content\angular-npm-install.bat" />
+    <Content Remove="wwwroot\ang-content\angular-output-hash.json" />
+    <Content Remove="wwwroot\ang-content\gulp_copyLibs.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ang-dist\" />
+  </ItemGroup>
+
+  
+
+  
+
+</Project>
