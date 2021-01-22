@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "MVC";
+}
+
+@if (ViewBag.IsAngularDebugLoader != null && ViewBag.IsAngularDebugLoader)
+{
+    <app-root>Loading (debug)...</app-root>    
+}
+else
+{
+    <app-root>Loading...</app-root>
+}
+
+
+
+

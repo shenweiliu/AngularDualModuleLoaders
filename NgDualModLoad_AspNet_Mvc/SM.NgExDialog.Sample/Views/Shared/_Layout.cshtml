@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+
+    @if (ViewBag.IsAngularDebugLoader != null && ViewBag.IsAngularDebugLoader)
+    {
+        <title>@ViewBag.Title - Angular SystemJS Module Loader</title>
+		<link rel="icon" type="image/x-icon" href="/ang-debug/favicon.ico">
+        @Styles.Render("~/ngSystemJs/css")
+    }
+    else
+    {
+        <title>@ViewBag.Title - Angular CLI Module Loader</title>
+		<link rel="icon" type="image/x-icon" href="/ang-dist/app/favicon.ico">
+        @Styles.Render("~/ngCLI/css")
+    }
+</head>
+<body>
+    @RenderBody()
+
+    @if (ViewBag.IsAngularDebugLoader != null && ViewBag.IsAngularDebugLoader)
+    {        
+        @Scripts.Render("~/bundles/ngSystemJS")
+    }
+    else
+    {     
+        @Scripts.Render("~/bundles/ngCLI")
+    }
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
