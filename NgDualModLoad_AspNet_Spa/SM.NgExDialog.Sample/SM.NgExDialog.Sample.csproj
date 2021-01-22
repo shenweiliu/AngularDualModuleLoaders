@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A539FD1D-42E5-4FF7-AE85-CC0245A57F3F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SM.NgExDialog.Sample</RootNamespace>
+    <AssemblyName>SM.NgExDialog.Sample</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TypeScriptToolsVersion>4.0</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptModuleKind />
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ang-content\gulpfile.js" />
+    <Content Include="ang-content\src\app\DialogDemo\app.component.css" />
+    <Content Include="ang-content\src\app\DialogDemo\app.component.html" />
+    <Content Include="ang-content\src\app\DialogDemo\app.component.js" />
+    <Content Include="ang-content\src\app\DialogDemo\app.module.js" />
+    <Content Include="ang-content\src\app\DialogDemo\app.routes.js" />
+    <Content Include="ang-content\src\app\DialogDemo\product.component.css" />
+    <Content Include="ang-content\src\app\DialogDemo\product.component.html" />
+    <Content Include="ang-content\src\app\DialogDemo\product.component.js" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-main.component.html" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-main.component.js" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-second.component.html" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-second.component.js" />
+    <Content Include="ang-content\src\app\DialogDemo\side-menu.component.css" />
+    <Content Include="ang-content\src\app\DialogDemo\side-menu.component.html" />
+    <Content Include="ang-content\src\app\DialogDemo\side-menu.component.js" />
+    <Content Include="ang-content\src\app\DialogDemo\test-data.service.js" />
+    <Content Include="ang-content\src\app\NgExDialog\alignment.directive.js" />
+    <Content Include="ang-content\src\app\NgExDialog\basic-dialog.component.html" />
+    <Content Include="ang-content\src\app\NgExDialog\basic-dialog.component.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-cache.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-config.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-host.component.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-icon.directive.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-main.component.html" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-main.component.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.component.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.module.js" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.service.js" />
+    <Content Include="ang-content\src\app\NgExDialog\draggable.directive.js" />
+    <Content Include="ang-content\src\app\NgExDialog\ex-dialog.service.js" />
+    <Content Include="ang-content\src\app\NgExDialog\focus-blur.directive.js" />
+    <Content Include="ang-content\src\assets\css\ex-dialog.css" />
+    <Content Include="ang-content\src\assets\css\site.css" />
+    <Content Include="ang-content\src\assets\favicon.ico" />
+    <Content Include="ang-content\src\assets\images\dialog-icons.png" />
+    <Content Include="ang-content\src\assets\images\question-icon.png" />
+    <Content Include="ang-content\src\environments\environment.js" />
+    <Content Include="ang-content\src\environments\environment.prod.js" />
+    <Content Include="ang-content\src\favicon.ico" />
+    <Content Include="ang-content\src\index-cli.html" />
+    <Content Include="ang-content\src\main.js" />
+    <Content Include="ang-content\src\polyfills.js" />
+    <Content Include="ang-content\src\styles.css" />
+    <Content Include="ang-debug\shim.min.js" />
+    <Content Include="ang-debug\systemjs.config.js" />
+    <Content Include="index.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ang-dist\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ang-content\.editorconfig" />
+    <Content Include="ang-content\angular.json" />
+    <Content Include="ang-content\package.json" />
+    <Content Include="ang-content\tsconfig.json" />
+    <Content Include="ang-content\tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ang-content\src\app\DialogDemo\app.component.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\app.module.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\app.routes.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\product.component.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-main.component.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\sample-second.component.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\side-menu.component.js.map" />
+    <Content Include="ang-content\src\app\DialogDemo\test-data.service.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\alignment.directive.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\basic-dialog.component.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-cache.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-config.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-host.component.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-icon.directive.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog-main.component.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.component.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.module.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\dialog.service.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\draggable.directive.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\ex-dialog.service.js.map" />
+    <Content Include="ang-content\src\app\NgExDialog\focus-blur.directive.js.map" />
+    <Content Include="ang-content\src\browserslist" />
+    <Content Include="ang-content\src\environments\environment.js.map" />
+    <Content Include="ang-content\src\environments\environment.prod.js.map" />
+    <Content Include="ang-content\src\main.js.map" />
+    <Content Include="ang-content\src\polyfills.js.map" />
+    <Content Include="ang-content\src\tsconfig.app.json" />
+    <Content Include="ang-content\src\tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\app.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\app.module.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\app.routes.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\product.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\sample-main.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\sample-second.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\side-menu.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\DialogDemo\test-data.service.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\alignment.directive.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\basic-dialog.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog-cache.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog-config.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog-host.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog-icon.directive.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog-main.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog.component.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog.module.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\dialog.service.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\draggable.directive.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\ex-dialog.service.ts" />
+    <TypeScriptCompile Include="ang-content\src\app\NgExDialog\focus-blur.directive.ts" />
+    <TypeScriptCompile Include="ang-content\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="ang-content\src\environments\environment.ts" />
+    <TypeScriptCompile Include="ang-content\src\main.ts" />
+    <TypeScriptCompile Include="ang-content\src\polyfills.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20100</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:20100/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

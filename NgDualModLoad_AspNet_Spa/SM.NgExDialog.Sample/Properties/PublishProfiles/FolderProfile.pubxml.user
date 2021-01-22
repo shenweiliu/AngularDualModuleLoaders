@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\MyProjects\MyPublish\NgDualMLoaders\Release_PubTest\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ang-system-js/shim.min.js">
+      <publishTime>01/02/2021 13:21:34</publishTime>
+    </File>
+    <File Include="ang-system-js/systemjs.config.js">
+      <publishTime>01/03/2021 00:14:31</publishTime>
+    </File>
+    <File Include="assets/images/dialog-icons.png">
+      <publishTime>01/02/2021 23:16:55</publishTime>
+    </File>
+    <File Include="assets/images/question-icon.png">
+      <publishTime>01/02/2021 23:16:55</publishTime>
+    </File>
+    <File Include="assets/site.css">
+      <publishTime>03/25/2019 13:50:52</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/28/2016 14:22:24</publishTime>
+    </File>
+    <File Include="bin/SM.NgExDialog.Sample.dll">
+      <publishTime>01/05/2021 14:44:11</publishTime>
+    </File>
+    <File Include="bin/SM.NgExDialog.Sample.pdb">
+      <publishTime>01/05/2021 14:44:11</publishTime>
+    </File>
+    <File Include="ClientApp/.editorconfig">
+      <publishTime>10/29/2018 01:08:42</publishTime>
+    </File>
+    <File Include="ClientApp/angular.json">
+      <publishTime>01/03/2021 00:47:02</publishTime>
+    </File>
+    <File Include="ClientApp/gulpfile.js">
+      <publishTime>01/03/2021 00:07:12</publishTime>
+    </File>
+    <File Include="ClientApp/package.json">
+      <publishTime>01/02/2021 13:45:33</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.component.css">
+      <publishTime>03/22/2019 11:27:02</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.component.html">
+      <publishTime>03/22/2019 10:07:02</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.module.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.module.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.routes.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/app.routes.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/product.component.css">
+      <publishTime>03/25/2019 13:32:52</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/product.component.html">
+      <publishTime>03/24/2019 19:08:00</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/product.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/product.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-main.component.html">
+      <publishTime>03/21/2019 16:52:44</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-main.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-main.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-second.component.html">
+      <publishTime>08/30/2017 23:53:30</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-second.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/sample-second.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/side-menu.component.css">
+      <publishTime>03/24/2019 00:19:34</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/side-menu.component.html">
+      <publishTime>03/24/2019 16:59:18</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/side-menu.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/side-menu.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/test-data.service.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/DialogDemo/test-data.service.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/alignment.directive.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/alignment.directive.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/assets/css/ex-dialog.css">
+      <publishTime>01/02/2021 23:08:45</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/assets/images/dialog-icons.png">
+      <publishTime>04/06/2019 22:13:56</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/assets/images/question-icon.png">
+      <publishTime>04/06/2019 22:13:56</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/basic-dialog.component.css">
+      <publishTime>12/06/2020 12:22:09</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/basic-dialog.component.html">
+      <publishTime>12/06/2020 12:22:09</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/basic-dialog.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/basic-dialog.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-cache.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-cache.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-config.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-config.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-host.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-host.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-icon.directive.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-icon.directive.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-main.component.html">
+      <publishTime>12/06/2020 12:22:09</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-main.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog-main.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.component.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.component.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.module.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.module.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.service.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/dialog.service.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/draggable.directive.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/draggable.directive.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/ex-dialog.service.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/ex-dialog.service.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/focus-blur.directive.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/app/NgExDialog/focus-blur.directive.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/browserslist">
+      <publishTime>10/29/2018 01:08:42</publishTime>
+    </File>
+    <File Include="ClientApp/src/environments/environment.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/environments/environment.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/environments/environment.prod.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/environments/environment.prod.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/favicon.ico">
+      <publishTime>10/29/2018 01:08:42</publishTime>
+    </File>
+    <File Include="ClientApp/src/main.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/main.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/polyfills.js">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/polyfills.js.map">
+      <publishTime>01/05/2021 14:35:38</publishTime>
+    </File>
+    <File Include="ClientApp/src/styles.css">
+      <publishTime>01/03/2021 00:44:54</publishTime>
+    </File>
+    <File Include="ClientApp/src/tsconfig.app.json">
+      <publishTime>10/03/2019 15:55:50</publishTime>
+    </File>
+    <File Include="ClientApp/src/tslint.json">
+      <publishTime>10/29/2018 01:08:42</publishTime>
+    </File>
+    <File Include="ClientApp/src/zero-index.html">
+      <publishTime>01/03/2021 23:56:35</publishTime>
+    </File>
+    <File Include="ClientApp/tsconfig.json">
+      <publishTime>01/02/2021 12:55:40</publishTime>
+    </File>
+    <File Include="ClientApp/tslint.json">
+      <publishTime>10/29/2018 01:08:42</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/03/2021 00:10:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/02/2018 13:41:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/05/2021 14:44:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
