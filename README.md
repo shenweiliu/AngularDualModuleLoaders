@@ -36,7 +36,7 @@ For any template of the projects, do the following steps: 
 
     `gulp copyLibs`
 
-NOTE: like the *node_modules*, the *npm-libs* folder is reproducible from the development environment so that it may not be checked-in to the repository.
+    NOTE: like the *node_modules*, the *npm-libs* folder is reproducible from the development environment so that it may not be checked-in to the repository.
 
 4. Open the solution you would like with the Visual Studio and rebuild it.
 
