@@ -1,2 +1,3 @@
-# AngularDualModuleLoaders
-Optimizing Angular debug and release environments with auto switchable SystemJS and Angular CLI module loaders in Visual Studio projects.
+# Angular Dual Module Loaders for Visual Studio Projects
+The SystemJS module loader has been deprecated and replaced by the Webpack or Angular CLI (internally using the Webpack) for the application development with the Angular. But code work and debugging advantages of the SystemJS, especially in Visual Studio projects, could never all be replaced by the Webpack even with its hot module replacement (HMR) feature. For developers who work on Angular applications but love the same experience of Visual Studio built-in debugging with the vanilla JavaScript, jQuery, Knockout.js, or even AngularJS, this auto dual module loader approach can be tried to increase the code work productivity and optimize both development and production operatiolns of the applications.</p>
+
